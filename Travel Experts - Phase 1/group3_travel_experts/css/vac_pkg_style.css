@@ -1,0 +1,103 @@
+.h1 {
+	color:#7A4B1D;
+	text-shadow: 1px 1px Black; 
+	font-family:Benton Modern
+	font-size: 300%;
+}
+
+.h2 {
+	color:#004074;
+	font-size:22px;
+ 	font-weight:bold;
+	font-family:arial,helvetica,clean,sans-serif;
+}
+
+blr {	color:red;
+	font-weight:bold;
+	font-size:18px;
+}
+
+header {
+
+}
+
+head {
+	<!--margin-bottom:80px;-->
+}
+
+<!--#body {
+	margin-bottom:70px; -->
+}
+
+
+body {
+	<!--background-image: url("travel_background.jpg");-->
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	filter: alpha(opacity=50);
+       	background-opacity:.5;
+	margin-bottom:80px;
+}
+
+.bottombar {
+	position:fixed;
+	bottom:0;
+	left:0;
+	height:70px;
+	width:100%;
+	background-color:#3F92F2;
+
+}
+
+l:hover {
+	color:white; cursor:pointer;
+}
+
+.content {
+	height:200px;
+}
+
+.left {
+	<!--overflow: hidden;-->
+}
+
+.right {
+	overflow: hidden;
+}
+
+img {
+	<?--max-width:100%;-->
+	height: auto;
+}
+
+.zoom-img {
+
+	box-shadow: 10px 10px 5px #888888; 
+	background:white;
+	-webkit-transition: -webkit-transform 0.2s;
+	-moz-transition: -moz-transform 0.2s;
+	-ms-transition: -ms-transform 0.2s;
+	transition: transform 0.2s;
+}
+
+.zoom-img:hover {
+
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.offer {
+	background-image: url('special_offer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+#icons  a.fb { width:25px;  background:transparent no-repeat top left; padding-left:5px;  }
+#icons a.ytb { width:25px; background:transparent no-repeat top left; padding-left:5px; }
+#icons a.twt { width:25px; background:transparent no-repeat top left; padding-left:5px; }
+#icons a.pinterest { width:25px; background:transparent no-repeat top left; padding-left:5px;  }
